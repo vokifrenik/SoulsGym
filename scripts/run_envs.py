@@ -4,6 +4,8 @@ import datetime
 
 import soulsgym  # noqa: F401
 
+## Adding a test comment
+
 
 def main(env: str = "SoulsGymIudex-v0"):
     env = gymnasium.make(env, game_speed=3., random_player_pose=True)
